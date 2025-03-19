@@ -11,5 +11,5 @@ function enterClicked() {
   const height = document.getElementById("height").value
   // output
   document.getElementById("answer").innerHTML =
-    "The surface area is: " + (2 * ((width * length) + (height * length) + (width * height))) + "cm²."
+    "The surface area is: " + (2 * ((width * length) + (height * length) + (width * height))) + " cm²."
 }

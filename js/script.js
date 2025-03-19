@@ -9,7 +9,9 @@ function enterClicked() {
   const length = document.getElementById("length").value
   const width = document.getElementById("width").value
   const height = document.getElementById("height").value
+  // process
+  const surfaceArea = 2 * (width * length + height * length + width * height)
   // output
   document.getElementById("answer").innerHTML =
-    "The surface area is: " + (2 * ((width * length) + (height * length) + (width * height))) + " cm²."
+    "The surface area is: " + surfaceArea + " cm²."
 }

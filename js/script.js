@@ -6,9 +6,9 @@
 
 function enterClicked() {
   // input
-  const length = document.getElementById("length").value
-  const width = document.getElementById("width").value
-  const height = document.getElementById("height").value
+  const length = parseFloat(document.getElementById("length").value)
+  const width = parseFloat(document.getElementById("width").value)
+  const height = parseFloat(document.getElementById("height").value)
   // process
   const surfaceArea = 2 * (width * length + height * length + width * height)
   // output

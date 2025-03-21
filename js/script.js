@@ -4,6 +4,8 @@
 // Created on: Mar 2025
 // This file contains the JS functions for index.html
 
+"use strict"
+
 function enterClicked() {
   // input
   const length = parseFloat(document.getElementById("length").value)
